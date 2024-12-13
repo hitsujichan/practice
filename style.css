@@ -1,0 +1,105 @@
+/* main */
+
+body{
+    font-family: monospace;
+    font-size: 17px;
+    background-color: #f7f6f5;
+    text-align: center;
+}
+
+h1{
+    font-size: 200%;
+}
+h2{
+    font-size: 150%;
+}
+h3{
+    font-size: 120%;
+    color: #546c78;
+    text-align: center;
+}
+
+/* class */
+
+.info{
+    text-align: left;
+}
+.text{
+    text-align: center;
+}
+.news{
+    padding: 10px;
+    margin: 20px;
+    line-height: 30px;
+}
+.ne{
+    padding: 10px;
+}    
+.f{
+    padding: 10px;
+}
+.tour{
+    padding: 10px;
+    line-height: 30px;
+}
+.ne-course{
+    display: flex;
+    flex-flow: row;
+    margin: auto;
+    margin-left: 24vw;
+}
+.img-b{
+    display: block;
+}
+.container{
+    margin: 0 auto;
+}
+
+/* tab */
+
+select{
+    padding: 5px;
+    margin: 5px;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    color: #546c78;
+    text-decoration: none;
+}
+
+/* footer */
+
+footer{
+    background-color: #546c7823;
+    margin-top: 20px;
+    padding-top: 20px;
+    line-height: 20px;
+    text-align: left;
+    margin: 0 auto;
+}
+.small{
+    font-size: smaller;
+    color: #546c78;
+}
+.footer-copyright{
+    background-color: #546c78;
+    padding: 10px;
+    margin-top: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+
+/* メディアクエリ */
+
+@media screen and (max-width: 768px){
+.ne-course{
+    display: flex;
+    flex-flow: column;
+}
+
+
+
+}
